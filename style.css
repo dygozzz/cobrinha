@@ -1,0 +1,75 @@
+body {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #7a007a;
+}
+
+.shiny-button {
+    justify-content: center;
+    margin: 60px;
+    display: inline-block;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.1;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: #D100D1;
+    background-image: -webkit-linear-gradient(top, #d600d6 0%, #e119e1 48%, #D100D1 49%, #D100D1 82%, #ed00ed 100%);
+    background-image: -moz-linear-gradient(top, #d600d6 0%, #e119e1 48%, #D100D1 49%, #D100D1 82%, #ed00ed 100%);
+    background-image: -o-linear-gradient(top, #d600d6 0%, #e119e1 48%, #D100D1 49%, #D100D1 82%, #ed00ed 100%);
+    background-image: linear-gradient(top, #d600d6 0%, #e119e1 48%, #D100D1 49%, #D100D1 82%, #ed00ed 100%);
+    border-color: hsl(300, 40%, 41%);
+    -webkit-box-shadow: inset 0 0 1px 1px #ff1eff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 0 1px 1px #ff1eff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 1px 1px #ff1eff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 1px #6b006b;
+    -moz-text-shadow: 1px 1px 1px #6b006b;
+    -o-text-shadow: 1px 1px 1px #6b006b;
+    text-shadow: 1px 1px 1px #6b006b;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+    padding: 12px 30px 12px 30px;
+}
+
+.shiny-button strong {
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.shiny-button:hover {
+    color: #FFFFFF;
+    background-color: #e000e0;
+    background-image: -webkit-linear-gradient(top, #e500e5 0%, #e622e6 48%, #e000e0 49%, #e000e0 82%, #fc00fc 100%);
+    background-image: -moz-linear-gradient(top, #e500e5 0%, #e622e6 48%, #e000e0 49%, #e000e0 82%, #fc00fc 100%);
+    background-image: -o-linear-gradient(top, #e500e5 0%, #e622e6 48%, #e000e0 49%, #e000e0 82%, #fc00fc 100%);
+    background-image: linear-gradient(top, #e500e5 0%, #e622e6 48%, #e000e0 49%, #e000e0 82%, #fc00fc 100%);
+    border-color: hsl(300, 41%, 44%);
+    -webkit-box-shadow: inset 0 0 1px 1px #ff28ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 0 1px 1px #ff28ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 1px 1px #ff28ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 1px #7a007a;
+    -moz-text-shadow: 1px 1px 1px #7a007a;
+    -o-text-shadow: 1px 1px 1px #7a007a;
+    text-shadow: 1px 1px 1px #7a007a;
+}
+
+.shiny-button:active {
+    color: #FFFFFF;
+    background-color: #c200c2;
+    background-image: -webkit-linear-gradient(top, #b800b8 0%, #D100D1 100%);
+    background-image: -moz-linear-gradient(top, #b800b8 0%, #D100D1 100%);
+    background-image: -o-linear-gradient(top, #b800b8 0%, #D100D1 100%);
+    background-image: linear-gradient(top, #b800b8 0%, #D100D1 100%);
+    padding: 13px 30px 11px 30px;
+}
